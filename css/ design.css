@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<IDOCTYPE html>
 <html>
 <head>
 <style>
@@ -12,11 +12,7 @@ input[type=submit], {
   cursor: pointer;
 
 }
-<label for="country">Country</label>
-    <select id="Malta" name="Malta">
-      <option value="Malta">Malta</option>
-      <option value="Gozo">Gozo</option>
-    </select>
+
 </style>
 
 </head>
