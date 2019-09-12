@@ -3,8 +3,8 @@
 div.outset {
 
   border-style: solid;
-  border-color: red;
-  border-width: thin;
+  border-color: blue;
+  border-width: medium;
 
   padding: 10px;
 }
