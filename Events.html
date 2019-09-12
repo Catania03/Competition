@@ -88,17 +88,36 @@
             <br>
             <input type="email" class="form-control" id="inputEmail4" placeholder="Contact">
             <br>
-            <button type="button" class="btn btn-outline-secondary">Add Event</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Add Event
+            </button>
 
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Thank you for adding an event. </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Are you sure you want to add event? </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                  </div>
           </form>
         </div>
       </div>
     </div>
+  </div>
+</div>
 
     <div class="myfooter">
       <div class="row">
-        <div class="col-8">Created by: Maria Catania and Elisa Mangion. Contact information: <a href="mailto:maria.catania03@yahoo.com">
-          maria.catania03@yahoo.com</a></div>
+        <div class="col-8">Created by: Maria Catania and Elisa Mangion. Contact information: <a href="mailto:maria.catania03@yahoo.com"> maria.catania03@yahoo.com</a></div>
           <div class="col-4"><a href="https://www.instagram.com/elisa.mangion/">
             <img src="images/instagram.jpg"style="width:100px;height:50px;"></div>
           </div>
